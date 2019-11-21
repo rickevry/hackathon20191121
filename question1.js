@@ -41,8 +41,7 @@ let correctResult = [
                 "title": "A2",
                 "shapes": []
             }
-        ],
-        "lines": []
+        ]
     }
 ];
 
