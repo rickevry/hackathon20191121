@@ -2,8 +2,8 @@ let data = [
     {
         "width": 758,
         "height": 322,
-        "x": 595,
-        "y": 311,
+        "x": 531,
+        "y": 235,
         "titles": {
             "uk": "A"
         }
@@ -11,8 +11,8 @@ let data = [
     {
         "width": 158,
         "height": 104,
-        "x": 440,
-        "y": 248,
+        "x": 290,
+        "y": 168,
         "titles": {
             "uk": "A1"
         }
@@ -20,14 +20,40 @@ let data = [
     {
         "width": 158,
         "height": 104,
-        "x": 749,
-        "y": 344,
+        "x": 645,
+        "y": 212,
         "titles": {
             "uk": "A2"
         }
+    },
+    {
+        "width": 758,
+        "height": 322,
+        "x": 525,
+        "y": 613,
+        "titles": {
+            "uk": "B"
+        }
+    },
+    {
+        "width": 158,
+        "height": 104,
+        "x": 284,
+        "y": 546,
+        "titles": {
+            "uk": "B1"
+        }
+    },
+    {
+        "width": 158,
+        "height": 104,
+        "x": 1053,
+        "y": 416,
+        "titles": {
+            "uk": "C"
+        }
     }
 ];
-
 
 let correctResult = [
     {
@@ -35,14 +61,26 @@ let correctResult = [
         "shapes": [
             {
                 "title": "A1",
-                "shapes": []
+                "shapes": [],
             },
             {
                 "title": "A2",
+                "shapes": [],
+            }
+        ]
+    },
+    {
+        "title": "B",
+        "shapes": [
+            {
+                "title": "B1",
                 "shapes": []
             }
-        ],
-        "lines": []
+        ]
+    },
+    {
+        "title": "C",
+        "shapes": [],
     }
 ];
 
